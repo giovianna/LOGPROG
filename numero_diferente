@@ -1,0 +1,16 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro numero
+        
+        escreva("Digite um número: ")
+        leia(numero)
+        
+        enquanto(numero != -1)
+        {
+            escreva("Digite um número: ")
+            leia(numero)
+        }
+    }
+}
